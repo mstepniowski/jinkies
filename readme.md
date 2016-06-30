@@ -1,10 +1,8 @@
 To install:
 
 ```bash
-$ git clone git@gist.github.com:67598a2bb740c029ba53.git jinkies
-$ cd jinkies && ./install.sh
+$ git clone git@github.com:jmoiron/jinkies.git jinkies
+$ cd jinkies && pip install .
 ```
 
-This copies `jinkies.py` over into `~/.local/bin`, does some checks to ensure
-you have its requirements installed (mostly python docopt), and also prints out
-configuration help.
+Requires [pip](https://pip.pypa.io/en/stable/installing/) (which should be already installed if you're using Python >= 2.7.9).
